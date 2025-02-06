@@ -5885,51 +5885,22 @@ function show_date_time() {
     e_minsold = (hrsold - e_hrsold) * -60;
     minsold = Math.floor((hrsold - e_hrsold) * -60);
     seconds = Math.floor((minsold - e_minsold) * -60);
-    momk.innerHTML = daysold + " day " + hrsold + " hour " + minsold + " minute " + seconds + " second";
 }
 show_date_time();
 
 document.addEventListener('DOMContentLoaded', function () {
     var telegramDiv = document.querySelector('.Telegram');
     telegramDiv.addEventListener('click', function () {
-        window.open('https://t.me/vietanh2006', '_blank');
+        window.open('https://t.me/thanhquytool', '_blank');
     });
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    var telegramDiv = document.querySelector('.Github');
-    telegramDiv.addEventListener('click', function () {
-        window.open('https://github.com/tuan-anh-2006', '_blank');
-    });
-});
-document.addEventListener('DOMContentLoaded', function () {
-    var telegramDiv = document.querySelector('.Facebook');
-    telegramDiv.addEventListener('click', function () {
-        window.open('https://www.facebook.com/buihuu.tuananh.2006', '_blank');
-    });
-});
-document.addEventListener('DOMContentLoaded', function () {
-    var telegramDiv = document.querySelector('.Instagram');
-    telegramDiv.addEventListener('click', function () {
-        window.open('https://www.instagram.com/buihuutuananh2006', '_blank');
-    });
-});
-document.addEventListener('DOMContentLoaded', function () {
-    var telegramDiv = document.querySelector('.Tiktok');
-    telegramDiv.addEventListener('click', function () {
-        window.open('https://www.tiktok.com/@adudarkvailoz2006', '_blank');
-    });
-});
+
+
 document.addEventListener('DOMContentLoaded', function () {
     var telegramDiv = document.querySelector('.Youtube');
     telegramDiv.addEventListener('click', function () {
-        window.open('', '_blank');
-    });
-});
-document.addEventListener('DOMContentLoaded', function () {
-    var telegramDiv = document.querySelector('.Zalo');
-    telegramDiv.addEventListener('click', function () {
-        window.open('', '_blank');
+        window.open('https://www.youtube.com/@thanhquytool', '_blank');
     });
 });
 
@@ -5983,7 +5954,7 @@ console.log('%c- Chộm 𝑺𝑶𝑼𝑹𝑪𝑬 là hành vi không tốt, cầ
 document.addEventListener('DOMContentLoaded', function () {
     var overlay = document.getElementById('overlay');
     var text = document.getElementById('text');
-    var audio = new Audio('./audio/MusicVip.mp3');
+    var audio = new Audio('./audio/MenhTaKhongDoTroi.mp3');
 
     overlay.addEventListener('click', function () {
         audio.loop = true;
