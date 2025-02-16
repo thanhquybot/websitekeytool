@@ -370,7 +370,7 @@ transition: all .25s cubic-bezier(.08, .59, .29, .99);
 
 .TieuSu {
   text-align: center;
-  color: #fff;
+  color: #000;
   font-size: 17px;
   font-weight: bold;
 }
