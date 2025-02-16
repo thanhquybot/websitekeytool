@@ -5968,22 +5968,3 @@ var overlay = document.getElementById("overlay");
 var textDiv = document.createElement("div");
 textDiv.id = "text";
 
-
-
-
-
-// Thêm các phần tử vào phần tử textDiv
-textDiv.appendChild(welcomeText);
-textDiv.appendChild(continueText);
-
-// Thêm phần tử textDiv vào overlay
-overlay.appendChild(textDiv);
-
-// Thiết lập sự kiện click cho overlay
-overlay.addEventListener("click", function () {
-    // Ẩn overlay
-    overlay.style.display = "none";
-
-    // Thêm mã JavaScript của bạn để bắt đầu phát nhạc hoặc thực hiện các hành động khác ở đây
-});
-
