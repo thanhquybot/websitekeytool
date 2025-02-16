@@ -5,7 +5,22 @@
 
 // This little piece of script changes the colors depending on the current month
 // The first color of each array is the most used in the respective month
+date = new Date();
+janColors = ["#0099ff", "#ffffff"]
+febColors = ["#ffffff", "#9900ff"]
+marColors = ["#99ffcc", "#737373"]
+aprColors = ["#ff99cc", "#ffffff"]
+mayColors = ["#e0e0e0", "#99cc00"]
+junColors = ["#cccc00", "#f0f0f0"]
+julColors = ["#cc9900", "#ffffff"]
+augColors = ["#cc3300", "#cc9900"]
+sepColors = ["#ff0066", "#ffffff"]
+octColors = ["#0066cc", "#ffffff"]
+novColors = ["#00cc99", "#ccff66"]
+decColors = ["#ffffff", "#ff0000"]
+var colors = [janColors, febColors, marColors, aprColors, mayColors, junColors, julColors, augColors, sepColors, octColors, novColors, decColors];
 
+var selColors = colors[Math.floor(Math.random() * colors.length)];
 
 
 particlesJS('particles-js',
@@ -5953,19 +5968,7 @@ var overlay = document.getElementById("overlay");
 var textDiv = document.createElement("div");
 textDiv.id = "text";
 
-// Tạo phần tử p cho dòng chữ "Hello, chào mừng đến với profile"
-var welcomeText = document.createElement("p");
-welcomeText.style.fontFamily = "Quicksand";
-welcomeText.style.fontSize = "20px";
-welcomeText.textContent = "Welcome To The WebKey Key Bên Dưới Web";
-welcomeText.style.marginBottom = "10px"; // Khoảng cách dưới 10px
 
-
-// Tạo phần tử p cho dòng chữ "- Nhấn để tiếp tục -"
-var continueText = document.createElement("p");
-continueText.style.fontFamily = "Quicksand";
-continueText.style.fontSize = "15px";
-continueText.textContent = "- Click to continue -";
 
 
 
