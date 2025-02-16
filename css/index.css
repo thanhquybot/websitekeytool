@@ -376,7 +376,7 @@ transition: all .25s cubic-bezier(.08, .59, .29, .99);
 }
 
 #userName {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   font-weight: bold;
   line-height: 1.25;
